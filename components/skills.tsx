@@ -2,9 +2,12 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { skillsData } from "@/lib/data";
+import { skillsData, techs } from "@/lib/data";
+
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+
+import Image from "next/image";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -30,8 +33,8 @@ export default function Skills() {
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((skill, index) => (
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 dark:text-white">
+        {/* {skillsData.map((skill, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -45,8 +48,58 @@ export default function Skills() {
           >
             {skill}
           </motion.li>
+        ))} */}
+        {techs.map(({ id, src, title, style }) => (
+          <motion.li
+            key={id}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: false,
+            }}
+            className={`shadow-md  w-28 hover:scale-105 duration-500 py-2 rounded-lg ${style} `}
+          >
+            <Image
+              width="192"
+              height="192"
+              quality="95"
+              key={id}
+              src={src}
+              alt=""
+              className="w-14 mx-auto "
+            />
+            <p className="mt-4">{title}</p>
+          </motion.li>
         ))}
       </ul>
+
+      {/*  */}
+
+      <div
+        className=" w-full grid grid-cols-2 sm:grid-cols-5 
+        gap-8 text-center py-8 px-12 sm:px-0"
+      >
+        {/* {techs.map(({ id, src, title, style }) => (
+          <div
+            key={id}
+            className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+          >
+            <Image
+              width="192"
+              height="192"
+              quality="95"
+              key={id}
+              src={src}
+              alt=""
+              className="w-20 mx-auto"
+            />
+            <p className="mt-4">{title}</p>
+          </div>
+        ))} */}
+      </div>
+
+      {/*  */}
     </section>
   );
 }
