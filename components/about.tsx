@@ -19,30 +19,28 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        My journey into the world of technology began with a Diploma in
+        <span className="font-medium"> Computer Engineering,</span> followed by
+        a Bachelor's degree in Computer Science and a Master's in Computer
+        Science from{" "}
+        <span className="font-medium">Stevens Institute of Technology.</span>{" "}
+        This unique educational background proved invaluable in my career as a{" "}
+        <span className="font-medium">software engineer,</span> notably at Sigma
+        Solve Inc., where my diploma experience, combined with my bachelor's
+        education, greatly facilitated my work and contribution.
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        I specialize in frontend development, with expertise in React, Next.js,
+        Node.js, and MongoDB, complemented by my proficiency in{" "}
+        <span className="font-medium">JavaScript</span> and
+        <span className="font-medium"> TypeScript.</span> The constantly
+        evolving tech landscape keeps me engaged, and I'm always eager to learn
+        new technologies to stay at the forefront.
+      </p>{" "}
+      <p>
+        I am actively seeking a full-time role as a{" "}
+        <span className="font-medium">Software Engineer</span> to apply my
+        skills and continue expanding my knowledge.
       </p>
     </motion.section>
   );
