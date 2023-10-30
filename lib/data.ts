@@ -58,16 +58,14 @@ export const experiencesData = [
   {
     title: "Diploma in Computer Engineering",
     location: "India",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    description: "",
     icon: React.createElement(LuGraduationCap),
     date: "2018",
   },
   {
     title: "Bachelors in Computer Engineering",
     location: "India",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    description: "",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
@@ -82,8 +80,7 @@ export const experiencesData = [
   {
     title: "Masters in Computer Science",
     location: "Stevens Institute of Technology, Hoboken, NJ",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    description: "",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2023",
   },
@@ -91,7 +88,7 @@ export const experiencesData = [
     title: "Software Engineer (Frontend)",
     location: "Bright Mind Enrichment, New York, USA ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Revamped Street Care web app with React for improved UI, reducing bounce rate and boosting user engagement. Enhanced performance with 25% faster load times and optimized data retrieval using Firebase DataStore. Integrated Firebase for secure user management, reducing login errors, and maintained a 95% design fidelity from Figma to web pages with mobile-first, responsive principles using Tailwind CSS.",
     icon: React.createElement(FaReact),
     date: "2023 - Present",
   },
