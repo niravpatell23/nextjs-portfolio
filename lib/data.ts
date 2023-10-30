@@ -7,6 +7,8 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 import intouch from "@/public/intouch.gif";
+import newapp from "@/public/newsapp.gif";
+import tictactoe from "@/public/tictactoe.gif";
 
 import html from "@/assets/html.png";
 import css from "@/assets/css.png";
@@ -116,20 +118,28 @@ export const projectsData = [
   {
     title: "News App",
     description:
-      "I developed a dynamic Live News App with real-time updates, implementing Server Side Rendering (SSR) to ensure the latest news delivery. The app was fully responsive, user-friendly, and offered Dark Mode for improved viewing.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: intouch,
-    demo: "https://in-touch-client.vercel.app",
-    code: "https://github.com/niravpatell23/InTouch/tree/main",
+      "A dynamic Live News App with real-time updates, implementing Server Side Rendering (SSR) to ensure the latest news delivery. The app is fully responsive, user-friendly, and offered Dark Mode for improved viewing.",
+    tags: [
+      "HTML",
+      "CSS",
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "GraphQL",
+    ],
+    imageUrl: newapp,
+    demo: "https://livenewsdaily.vercel.app/",
+    code: "https://github.com/niravpatell23/nextjs-newsapp",
   },
   {
-    title: "Word Analytics",
+    title: "Tic-Tac-Toe",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: intouch,
-    demo: "https://in-touch-client.vercel.app",
-    code: "https://github.com/niravpatell23/InTouch/tree/main",
+      "A fully functional Tic Tac Toe game with a unique dual-window setup, allowing players to simultaneously view the game board while strategizing their moves. This innovative design incorporates the MVC pattern, effectively separating game logic, user interface, and user interactions to enhance the overall gaming experience.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: tictactoe,
+    demo: "https://vanilla-js-tictactoe.vercel.app/",
+    code: "https://github.com/niravpatell23/vanillaJS-tictactoe",
   },
 ] as const;
 
