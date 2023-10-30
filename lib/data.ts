@@ -6,6 +6,8 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+import intouch from "@/public/intouch.gif";
+
 import html from "@/assets/html.png";
 import css from "@/assets/css.png";
 import javascript from "@/assets/javascript.png";
@@ -95,25 +97,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "InTouch | Educational Social Media ",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An educational social-networking platform with a seamless connection to college Canvas accounts. The platform featured real-time group chat, dynamic user addition, and interactive components for improved usability.",
+    tags: [
+      "HTML",
+      "CSS",
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Styled Components",
+    ],
+    imageUrl: intouch,
+    demo: "https://in-touch-client.vercel.app/login",
+    code: "https://github.com/niravpatell23/InTouch/tree/main",
   },
   {
-    title: "rmtDev",
+    title: "News App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I developed a dynamic Live News App with real-time updates, implementing Server Side Rendering (SSR) to ensure the latest news delivery. The app was fully responsive, user-friendly, and offered Dark Mode for improved viewing.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: intouch,
+    demo: "https://in-touch-client.vercel.app",
+    code: "https://github.com/niravpatell23/InTouch/tree/main",
   },
   {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: intouch,
+    demo: "https://in-touch-client.vercel.app",
+    code: "https://github.com/niravpatell23/InTouch/tree/main",
   },
 ] as const;
 
