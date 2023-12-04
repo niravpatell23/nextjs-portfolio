@@ -31,9 +31,8 @@ export default function About() {
       </p>
       <p>
         I specialize in frontend development, with expertise in{" "}
-        <span className="font-medium">React.js</span>
-        complemented by my proficiency in{" "}
-        <span className="font-medium">JavaScript</span> and
+        <span className="font-medium">React.js</span> complemented by my
+        proficiency in <span className="font-medium">JavaScript</span> and
         <span className="font-medium"> TypeScript.</span> The constantly
         evolving tech landscape keeps me engaged, and I'm always eager to learn
         new technologies to stay at the forefront.
