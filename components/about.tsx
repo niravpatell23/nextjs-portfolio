@@ -30,7 +30,8 @@ export default function About() {
         education, greatly facilitated my work and contribution.
       </p>
       <p>
-        I specialize in frontend development, with expertise in React.js
+        I specialize in frontend development, with expertise in{" "}
+        <span className="font-medium">React.js</span>
         complemented by my proficiency in{" "}
         <span className="font-medium">JavaScript</span> and
         <span className="font-medium"> TypeScript.</span> The constantly
