@@ -6,7 +6,10 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
+import { useTheme } from "@/context/theme-context";
+
 const StarBackground = (props: any) => {
+  const { theme } = useTheme();
   const ref: any = useRef();
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
@@ -17,12 +20,14 @@ const StarBackground = (props: any) => {
     ref.current.rotation.y -= delta / 15;
   });
 
+  let color = theme === "dark" ? "#fbe2e3" : "#000";
+
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="$fff"
+          color={color}
           size={0.002}
           sizeAttenuation={true}
           dethWrite={false}
@@ -33,7 +38,7 @@ const StarBackground = (props: any) => {
 };
 
 const StarsCanvas = () => (
-  <div className="w-full h-auto fixed inset-0 z-[20]">
+  <div className="w-full h-auto fixed inset-0 z-[-10]">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground />
