@@ -70,7 +70,7 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Software Engineer",
+    title: "Frontend Developer",
     location: "Sigma Solve Inc., India",
     description:
       "Collaborated closely with designers to translate wireframes and mockups into pixel-perfect frontend designs, ensuring a consistent and seamless user experience. Developed user interfaces for web applications using React.js, JavaScript, Bootstrap, HTML, and CSS Created RESTful back-end systems with Node.js, Express, and MongoDB",
@@ -85,7 +85,7 @@ export const experiencesData = [
     date: "2021 - 2023",
   },
   {
-    title: "Software Engineer (Frontend)",
+    title: "Frontend Developer",
     location: "Bright Mind Enrichment, New York, USA ",
     description:
       "Revamped Street Care web app with React for improved UI, reducing bounce rate and boosting user engagement. Enhanced performance with 25% faster load times and optimized data retrieval using Firebase DataStore. Integrated Firebase for secure user management, reducing login errors, and maintained a 95% design fidelity from Figma to web pages with mobile-first, responsive principles using Tailwind CSS.",
