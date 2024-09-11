@@ -71,11 +71,50 @@ export const experiencesData = [
   },
   {
     title: "Frontend Developer",
+    location: "Sigma Solve",
+    description:
+      "Collaborated closely with designers to translate wireframes and mockups into pixel-perfect frontend designs, ensuring a consistent and seamless user experience. Developed user interfaces for web applications using React.js, JavaScript, Bootstrap, HTML, and CSS Created RESTful back-end systems with Node.js, Express, and MongoDB",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2021",
+  },
+  {
+    title: "Masters in Computer Science",
+    location: "Stevens Institute of Technology, Hoboken, NJ",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2023",
+  },
+  {
+    title: "Frontend Developer",
+    location: "White Collar Technologies, San Jose, USA ",
+    description:
+      "Revamped Street Care web app with React for improved UI, reducing bounce rate and boosting user engagement. Enhanced performance with 25% faster load times and optimized data retrieval using Firebase DataStore. Integrated Firebase for secure user management, reducing login errors, and maintained a 95% design fidelity from Figma to web pages with mobile-first, responsive principles using Tailwind CSS.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Present",
+  },
+] as const;
+export const experiencesData1 = [
+  {
+    title: "Diploma in Computer Engineering",
+    location: "India",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018",
+  },
+  {
+    title: "Bachelors in Computer Engineering",
+    location: "India",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
+  },
+  {
+    title: "Frontend Developer",
     location: "Sigma Solve Inc., India",
     description:
       "Collaborated closely with designers to translate wireframes and mockups into pixel-perfect frontend designs, ensuring a consistent and seamless user experience. Developed user interfaces for web applications using React.js, JavaScript, Bootstrap, HTML, and CSS Created RESTful back-end systems with Node.js, Express, and MongoDB",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "2019 - 2021",
   },
   {
     title: "Masters in Computer Science",
