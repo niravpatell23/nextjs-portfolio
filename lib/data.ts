@@ -88,7 +88,7 @@ export const experiencesData = [
     title: "Frontend Developer",
     location: "White Collar Technologies, San Jose, USA ",
     description:
-      "I led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
+      "led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
     icon: React.createElement(FaReact),
     date: "2023 - Present",
   },
