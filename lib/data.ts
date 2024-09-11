@@ -88,7 +88,7 @@ export const experiencesData = [
     title: "Frontend Developer",
     location: "White Collar Technologies, San Jose, USA ",
     description:
-      "Revamped Street Care web app with React for improved UI, reducing bounce rate and boosting user engagement. Enhanced performance with 25% faster load times and optimized data retrieval using Firebase DataStore. Integrated Firebase for secure user management, reducing login errors, and maintained a 95% design fidelity from Figma to web pages with mobile-first, responsive principles using Tailwind CSS.",
+      "I led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
     icon: React.createElement(FaReact),
     date: "2023 - Present",
   },
