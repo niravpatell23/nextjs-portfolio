@@ -10,7 +10,7 @@ import { useTheme } from "@/context/theme-context";
 
 const StarBackground = (props: any) => {
   const { theme } = useTheme();
-  const ref: any = useRef();
+  const ref: any = useRef(null);
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
@@ -30,7 +30,7 @@ const StarBackground = (props: any) => {
           color={color}
           size={0.002}
           sizeAttenuation={true}
-          dethWrite={false}
+          depthWrite={false}
         />
       </Points>
     </group>
