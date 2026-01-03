@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        My journey into the world of technology began with a Diploma in
+        My journey into the world of informationtechnology began with a Diploma in
         <span className="font-medium"> Computer Engineering,</span> followed by
         a Bachelor's degree in Computer Science and a Master's in Computer
         Science from{" "}
