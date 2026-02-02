@@ -70,12 +70,12 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Frontend Developer",
+    title: "Software Development Engineer",
     location: "Sigma Solve",
     description:
       "Collaborated closely with designers to translate wireframes and mockups into pixel-perfect frontend designs, ensuring a consistent and seamless user experience. Developed user interfaces for web applications using React.js, JavaScript, Bootstrap, HTML, and CSS Created RESTful back-end systems with Node.js, Express, and MongoDB",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
     title: "Masters in Computer Science",
@@ -85,12 +85,20 @@ export const experiencesData = [
     date: "2021 - 2023",
   },
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
+    location: "Brightmind Enrichment, New York, USA ",
+    description:
+      "led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Computer Systems Analyst",
     location: "White Collar Technologies, San Jose, USA ",
     description:
       "led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
-    icon: React.createElement(FaReact),
-    date: "2023 - Present",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
   },
 ] as const;
 export const experiencesData1 = [
