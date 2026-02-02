@@ -19,29 +19,33 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        My journey into the world of informationtechnology began with a Diploma in
+        My journey into information technology began with a Diploma in
         <span className="font-medium"> Computer Engineering,</span> followed by
-        a Bachelor's degree in Computer Science and a Master's in Computer
-        Science from{" "}
+        a Bachelor’s degree and a Master’s degree in
+        <span className="font-medium"> Computer Science</span> from{" "}
         <span className="font-medium">Stevens Institute of Technology.</span>{" "}
-        This unique educational background proved invaluable in my career as a{" "}
-        <span className="font-medium">software engineer,</span> notably at Sigma
-        Solve Inc., where my diploma experience, combined with my bachelor's
-        education, greatly facilitated my work and contribution.
+        This progressive academic foundation has equipped me with a strong
+        balance of hands-on technical skills and in-depth theoretical knowledge,
+        enabling me to work effectively within complex technology environments.
       </p>
+
+      <p className="mb-3">
+        I bring practical experience in analyzing system requirements,
+        translating business needs into well-structured technical solutions, and
+        supporting the design, enhancement, and optimization of software
+        systems. My work involves close collaboration with cross-functional
+        teams, diagnosing and resolving system issues, improving performance and
+        reliability, and ensuring seamless integration across applications,
+        services, and data workflows.
+      </p>
+
       <p>
-        I specialize in frontend development, with expertise in{" "}
-        <span className="font-medium">React.js</span> complemented by my
-        proficiency in{" "}
-        <span className="font-medium">HTML, CSS, JavaScript</span> and
-        <span className="font-medium"> TypeScript.</span> The constantly
-        evolving tech landscape keeps me engaged, and I'm always eager to learn
-        new technologies to stay at the forefront.
-      </p>{" "}
-      <p>
-        I am actively seeking a full-time role as a{" "}
-        <span className="font-medium">Software Engineer</span> to apply my
-        skills and continue expanding my knowledge.
+        I thrive in fast-paced IT environments that value adaptability and
+        continuous learning, and I am actively seeking a full-time opportunity
+        in
+        <span className="font-medium"> technology</span> where I can contribute
+        meaningful, scalable solutions while continuing to grow my technical
+        expertise.
       </p>
     </motion.section>
   );
