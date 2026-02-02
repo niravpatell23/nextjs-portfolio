@@ -88,15 +88,14 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Brightmind Enrichment, New York, USA ",
     description:
-      "led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
+      "Developed web app's UI with Tailwind CSS and ReactJS, reducing bounce rate and boosting user engagement by 20%. Improved web app performance, reducing load times and enhancing overall performance by 15%. Optimized data retrieval with Firebase DataStore, reducing retrieval times by 25%. Implemented comprehensive unit and integration testing with Jest and Enzyme, ensuring code quality and stability",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
   {
     title: "Computer Systems Analyst",
-    location: "White Collar Technologies, San Jose, USA ",
-    description:
-      "led the development of a time-off tracker application using React.js and Express.js, integrating AWS DynamoDB for data storage. I enhanced the app's security with Microsoft Azure AD and OAuth 2.0, ensuring enterprise-level authentication. Collaborating with DevOps, we automated deployment using CircleCI, deploying the frontend on AWS S3 with CloudFront, and the backend on AWS Lambda via the Serverless Framework, reducing server costs by 30%.",
+    location: "White Collar Technologies, USA ",
+    description: "",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
