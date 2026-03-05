@@ -72,6 +72,51 @@ export const experiencesData = [
   {
     title: "Software Development Engineer",
     location: "Sigma Solve",
+    description: "",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2021",
+  },
+  {
+    title: "Masters in Computer Science",
+    location: "Stevens Institute of Technology, Hoboken, NJ",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2023",
+  },
+  {
+    title: "Software Engineer",
+    location: "Brightmind Enrichment, New York, USA ",
+    description: "",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Computer Systems Analyst",
+    location: "White Collar Technologies, USA ",
+    description: "",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  },
+] as const;
+
+export const experiencesData2 = [
+  {
+    title: "Diploma in Computer Engineering",
+    location: "India",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018",
+  },
+  {
+    title: "Bachelors in Computer Engineering",
+    location: "India",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
+  },
+  {
+    title: "Software Development Engineer",
+    location: "Sigma Solve",
     description:
       "Collaborated closely with designers to translate wireframes and mockups into pixel-perfect frontend designs, ensuring a consistent and seamless user experience. Developed user interfaces for web applications using React.js, JavaScript, Bootstrap, HTML, and CSS Created RESTful back-end systems with Node.js, Express, and MongoDB",
     icon: React.createElement(CgWorkAlt),
